@@ -15,6 +15,10 @@ redirect_from: "/labs/vsts/continuousdeployment/index.htm"
 
 In this lab, you will learn about the release management features available in Azure Pipelines that automate the deployment of applications. These features help development and operations teams integrate with Azure DevOps Server to configure and automate complex deployments of their automated builds to target stages more easily. Development teams can also model their release processes and track approvals, sign-offs, and visualize their release status.
 
+
+<div class="bg-slap"><img src="./images/mslearn.png" class="img-icon-cloud" alt="MS teams" style="width: 48px; height: 48px;">Want additional learning? Check out the <a href="https://docs.microsoft.com/en-us/learn/modules/create-release-pipeline/" target="_blank"><b><u> Create a release pipeline in Azure Pipelines </u></b></a> module on Microsoft Learn.</div>
+
+
 <a name="Prerequisites"></a>
 ### Prerequisites ###
 
@@ -53,10 +57,6 @@ In this lab, you will learn about the release management features available in A
 1. Enter a **Database name** of **"partsunlimited"** and click **Create new** to create a new server.
 
     ![](images/005.png)
-
-1. Enter **"partsunlimited"** as the **Database name**. Select a subscription (it doesn't matter which one, but use the same one for all steps in this lab). Select **Create new** for **Resource group** and enter **"partsunlimited"** as the name. Make sure **Select source** is set to **Blank database** and click **Configure required settings**. If you don't already have a server you want to use, click **Create a new server**.
-
-    ![](images/006.png)
 
 1. Enter a unique name for **Server name**, such as by including your name. Enter an admin username and password you can remember. Note that **"P2ssw0rd"** meets the password requirements. Enable **Allow Azure services to access server**. Click **OK** to confirm these options.
 
@@ -430,7 +430,7 @@ In this lab, you will learn about the release management features available in A
 
     ![](images/088.png)
 
-1. Return to the browser window open to the **Azure portal**. Click **Swap** in the slots blade.
+1. Return to the browser window open to the **Azure portal**. Click **Swap** in the deployment slots blade.
 
     ![](images/089.png)
 
